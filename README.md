@@ -27,8 +27,8 @@ The primary objective was to implement the XOR function with specific design par
 
 **Transistor Sizing Reference:**
 Transistor sizing was done with respect to a reference inverter with the following dimensions:
-- PMOS width: 0.4u
-- NMOS width: 0.2u
+- PMOS width: 2u
+- NMOS width: 1u
 
 The repository includes:
 - Stick diagram
