@@ -1,0 +1,2 @@
+# XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary
+This repository showcases the comprehensive design, simulation, and layout implementation of a CMOS XOR gate using TSMC 180nm technology. Originating from the coursework of ELC3611 VLSI Design &amp; Technology in the fifth semester, this project is an exploration into the intricacies of semiconductor design and layout.
