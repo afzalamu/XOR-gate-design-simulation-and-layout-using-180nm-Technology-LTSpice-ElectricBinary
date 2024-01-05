@@ -5,7 +5,7 @@
 
 ## Overview
 
-Welcome to the XOR Gate Design project, a culmination of coursework for ELC3611 VLSI Design & Technology in the fifth semester. This project focuses on implementing the XOR function using CMOS logic in TSMC 180nm technology. The design, simulation, and layout were conducted using LTSpice for design and simulation, and Electric Binary for layout.
+Welcome to the XOR Gate Design project, an assignmnet of coursework for ELC3611 VLSI Design & Technology in the fifth semester. This project focuses on implementing the XOR function using CMOS logic in TSMC 180nm technology. The design, simulation, and layout were conducted using LTSpice for design and simulation, and Electric Binary for layout.
 
 ### Technology File
 
