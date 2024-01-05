@@ -25,6 +25,11 @@ The primary objective was to implement the XOR function with specific design par
 - Cell width optimized for minimum area
 - λ (Technology Parameter): 100 nm
 
+**Transistor Sizing Reference:**
+Transistor sizing was done with respect to a reference inverter with the following dimensions:
+- PMOS width: 0.4u
+- NMOS width: 0.2u
+
 The repository includes:
 - Stick diagram
 - CMOS schematic
@@ -34,7 +39,7 @@ The repository includes:
 - Input-A to Output Delay
 - Layout area
 
-### Stick Diagram and Layout Methodology
+## Stick Diagram and Layout Methodology
 
 The stick diagram and layout employed the Euler path method, resulting in an efficient and compact design.
 
@@ -52,8 +57,8 @@ Insights from the pre-layout simulation, along with any noteworthy observations 
 
 ### LTSpice Commands for Delay Measurement
 
-```spice
-// Insert relevant LTSpice commands for delay measurement here
+```plaintext
+Insert relevant LTSpice commands for delay measurement here
 ```
 
 ## Layout
@@ -62,23 +67,23 @@ Insights from the pre-layout simulation, along with any noteworthy observations 
 
 The layout design, including the application of the Euler path method and considerations for minimum area optimization.
 
-## Post-layout Simulation
+### Post-layout Simulation
 
 ![Post-layout Simulation](link-to-post-layout-simulation)
 
 Observations from the post-layout simulation, including input-A to Output Delay and other relevant metrics.
 
-### LTSpice Commands for Delay Measurement (Post-layout)
+#### LTSpice Commands for Delay Measurement (Post-layout)
 
-```spice
-// Insert relevant LTSpice commands for delay measurement in post-layout simulation here
+```plaintext
+Insert relevant LTSpice commands for delay measurement in post-layout simulation here
 ```
 
-### Transistor Area Calculation
+#### Transistor Area Calculation
 
 Include specific commands or methodologies used to calculate the transistor area in the layout.
 
-## Input-A to Output Delay and Layout Area
+#### Input-A to Output Delay and Layout Area
 
 Include details about the observed Input-A to Output Delay and the optimized layout area achieved in the post-layout simulation.
 
@@ -91,4 +96,4 @@ Include details about the observed Input-A to Output Delay and the optimized lay
 This project is licensed under the [License Name](link-to-license-file) - see the [LICENSE.md](LICENSE.md) file for details.
 ```
 
-Customize the placeholders with the actual links to your project files or images, and update the author section with your name and link to your GitHub profile. If you choose a specific license, provide the link to the license file.
+Feel free to customize any additional details as needed.
