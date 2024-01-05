@@ -31,23 +31,19 @@ Transistor sizing was done with respect to a reference inverter with the followi
 - NMOS width: 1u
 
 The repository includes:
-- Stick diagram
 - CMOS schematic
 - Pre-layout simulation waveforms
+- Stick diagram
 - Layout
 - Post-layout simulation waveforms
-- Input-A to Output Delay
 - Layout area
-
-## Stick Diagram and Layout Methodology
-
-The stick diagram and layout employed the Euler path method, resulting in an efficient and compact design.
 
 ## CMOS Schematic
 
 ![CMOS Schematic](link-to-cmos-schematic)
 
 The CMOS schematic showcases the key elements and design considerations.
+
 
 ## Pre-layout Simulation
 
@@ -60,6 +56,10 @@ Insights from the pre-layout simulation, along with any noteworthy observations 
 ```plaintext
 Insert relevant LTSpice commands for delay measurement here
 ```
+
+## Stick Diagram and Layout Methodology
+
+The stick diagram and layout employed the Euler path method, resulting in an efficient and compact design.
 
 ## Layout
 
@@ -78,14 +78,15 @@ Observations from the post-layout simulation, including input-A to Output Delay 
 ```plaintext
 Insert relevant LTSpice commands for delay measurement in post-layout simulation here
 ```
+#### Input-A to Output Delay and Layout Area
+
+Include details about the observed Input-A to Output Delay and the optimized layout area achieved in the post-layout simulation.
 
 #### Transistor Area Calculation
 
 Include specific commands or methodologies used to calculate the transistor area in the layout.
 
-#### Input-A to Output Delay and Layout Area
 
-Include details about the observed Input-A to Output Delay and the optimized layout area achieved in the post-layout simulation.
 
 ## Author
 
