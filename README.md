@@ -1,6 +1,4 @@
-Certainly! Here's a consolidated version of the README.md file:
 
-```markdown
 # XOR Gate Design, Simulation, and Layout using 180nm Technology
 
 ![Project Banner](link-to-banner-image)
