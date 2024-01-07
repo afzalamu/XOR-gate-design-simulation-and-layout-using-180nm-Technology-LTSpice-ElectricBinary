@@ -65,6 +65,9 @@ And the simulation results are in accordance with the functioning of the XOR gat
 .meas TPLH  time_42 - time_32
 .meas dealy param (TPHL + TPLH)/2
 ```
+#### Input-A to Output Delay (Pre-Layout Delay)
+![pre layout delay](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/bb832be1-331b-4841-8d72-90b278adb3e9)
+``` Pre-Layout Delay from input A to output is 50 us ```
 
 ## Stick Diagram and Layout Methodology
 
@@ -72,38 +75,26 @@ The stick diagram and layout employed the Euler path method, resulting in an eff
 
 ## Layout
 
-![Layout](link-to-layout)
+![layout](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/27e61e73-5a21-4b1d-92f3-db1f002ef2d5)
 
-The layout design, including the application of the Euler path method and considerations for minimum area optimization.
+The layout is designed using the application of the Euler path method and considerations for minimum area optimization.
 
 ### Post-layout Simulation
 
-![Post-layout Simulation](link-to-post-layout-simulation)
-
-Observations from the post-layout simulation, including input-A to Output Delay and other relevant metrics.
-
-#### LTSpice Commands for Delay Measurement (Post-layout)
-
-```plaintext
-Insert relevant LTSpice commands for delay measurement in post-layout simulation here
-```
-#### Input-A to Output Delay and Layout Area
-
-Include details about the observed Input-A to Output Delay and the optimized layout area achieved in the post-layout simulation.
-
-#### Transistor Area Calculation
-
-Include specific commands or methodologies used to calculate the transistor area in the layout.
+![post layout simulation](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/6eb563ad-782c-4bb8-b892-eeff43407b59)
 
 
+#### Input-A to Output Delay (Post-Layout Delay)
+![post layout delay](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/114e2a07-c251-4544-9df1-829af7b52194)
+``` Post-Layout Delay from input A to output is 20 us ```
+
+#### Area Calculation
+
+The area  can be calculated using the measuring tool in Electric Binary.
+Here, in the layout figure, the length and width are measured, and as a result area can be calculated.
+![layout arae](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/04dca9e9-1a4c-4aa9-b55d-3aa1dbf38e32)
 
 ## Author
 
-- [Your Name](link-to-your-github-profile)
+- [Afzal Malik](https://github.com/afzalamu)
 
-## License
-
-This project is licensed under the [License Name](link-to-license-file) - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-Feel free to customize any additional details as needed.
