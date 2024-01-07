@@ -51,13 +51,19 @@ The CMOS schematic showcases the key elements and design considerations.
 
 ![pre layout simulation](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/bb31f323-4a69-48f2-9ac5-3ce923bae373)
 
-To obtain these waveforms transient analysis is performed in LT Spice, using ```plaintext .tran 50u ``` command.
-And the simulation results are in accordance with the functioning of XOR gate.
+To obtain these waveforms transient analysis is performed in LT Spice, using the ```.tran 50u ``` command.
+And the simulation results are in accordance with the functioning of the XOR gate.
 
 ### LTSpice Commands for Delay Measurement
 
 ```plaintext
-Insert relevant LTSpice commands for delay measurement here
+.meas time_12 find when V(A) = 0.9V rise = 1
+.meas time_22 find when V(vout) = 0.9V fall = 1
+.meas TPHL time_22 - time_12
+.meas time_32 find when V(A) = 0.9V fall  = 2
+.meas time_42 find when V(vout) = 0.9V rise = 2
+.meas TPLH  time_42 - time_32
+.meas dealy param (TPHL + TPLH)/2
 ```
 
 ## Stick Diagram and Layout Methodology
