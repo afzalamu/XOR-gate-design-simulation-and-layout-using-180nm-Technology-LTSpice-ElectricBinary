@@ -67,6 +67,7 @@ And the simulation results are in accordance with the functioning of the XOR gat
 ```
 #### Input-A to Output Delay (Pre-Layout Delay)
 ![pre layout delay](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/bb832be1-331b-4841-8d72-90b278adb3e9)
+
 ``` Pre-Layout Delay from input A to output is 50 us ```
 
 ## Stick Diagram and Layout Methodology
@@ -86,6 +87,7 @@ The layout is designed using the application of the Euler path method and consid
 
 #### Input-A to Output Delay (Post-Layout Delay)
 ![post layout delay](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/114e2a07-c251-4544-9df1-829af7b52194)
+
 ``` Post-Layout Delay from input A to output is 20 us ```
 
 #### Area Calculation
