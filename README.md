@@ -41,16 +41,18 @@ The repository includes:
 
 ## CMOS Schematic
 
-![CMOS Schematic](link-to-cmos-schematic)
+![schematic](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/73d710a3-9cf4-4688-bc3d-e2235f1bf48d)
+
 
 The CMOS schematic showcases the key elements and design considerations.
 
 
 ## Pre-layout Simulation
 
-![Pre-layout Simulation](link-to-pre-layout-simulation)
+![pre layout simulation](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/bb31f323-4a69-48f2-9ac5-3ce923bae373)
 
-Insights from the pre-layout simulation, along with any noteworthy observations or optimizations.
+To obtain these waveforms transient analysis is performed in LT Spice, using ```plaintext .tran 50u ``` command.
+And the simulation results are in accordance with the functioning of XOR gate.
 
 ### LTSpice Commands for Delay Measurement
 
