@@ -1,11 +1,12 @@
 
 # XOR Gate Design, Simulation, and Layout using 180nm Technology
 
-![Project Banner](link-to-banner-image)
+![gitbanner](https://github.com/afzalamu/XOR-gate-design-simulation-and-layout-using-180nm-Technology-LTSpice-ElectricBinary/assets/124300839/8f0f9e83-cb62-49a0-a426-4d987972415b)
+
 
 ## Overview
 
-Welcome to the XOR Gate Design project, an assignmnet of coursework for ELC3611 VLSI Design & Technology in the fifth semester. This project focuses on implementing the XOR function using CMOS logic in TSMC 180nm technology. The design, simulation, and layout were conducted using LTSpice for design and simulation, and Electric Binary for layout.
+Welcome to the XOR Gate Design project, an assignment of coursework for ELC3611 VLSI Design & Technology in the fifth semester. This project focuses on implementing the XOR function using CMOS logic in TSMC 180nm technology. The design, simulation, and layout were conducted using LTSpice for design and simulation, and Electric Binary for layout.
 
 ### Technology File
 
